@@ -1,4 +1,4 @@
-# Haptix Prosthetics
+# Smart Haptics accessibility integrated Prosthetics Hand 
 
 Haptix Prosthetics is an engineering project exploring an affordable, sensor-driven upper-limb prosthetic terminal device for people with partial-hand amputations.
 
