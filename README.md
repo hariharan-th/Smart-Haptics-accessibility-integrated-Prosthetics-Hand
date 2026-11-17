@@ -1,8 +1,8 @@
-# ASHA-SPARSH Prosthetic Device
+# Haptix Prosthetics
 
-ASHA-SPARSH is a concept for an affordable, sensor-driven upper-limb prosthetic terminal device for people with partial-hand amputations. The idea was presented by team GOODFELLAS1 for Smart India Hackathon 2024, problem statement SIH25146 (MedTech / BioTech, hardware).
+Haptix Prosthetics is an engineering project exploring an affordable, sensor-driven upper-limb prosthetic terminal device for people with partial-hand amputations.
 
-This repository is the starting point for the project. The source presentation describes the concept and a prototype direction; it does not include firmware, CAD files, schematics, test data, or a clinically validated device yet.
+This repository is an early project space. The initial concept notes describe a prototype direction; firmware, CAD files, schematics, test data, and clinical validation have not yet been added.
 
 ## Concept
 
@@ -10,15 +10,15 @@ The proposed device combines hand movement with touch feedback:
 
 - **Sensing:** touch, pressure, and piezoelectric fingertip sensors detect contact.
 - **Control:** a microcontroller interprets sensor input and drives the hand mechanism.
-- **Actuation:** a servo motor and gear mechanism control grip movement. A relay module is shown in the presentation's system diagram.
+- **Actuation:** a servo motor and gear mechanism control grip movement. A relay module is included in the initial system concept.
 - **Feedback:** a vibration motor provides tactile feedback to the wearer.
-- **Fabrication:** the presentation describes custom plaster and resin fabrication, with CATIA design and ANSYS simulation.
+- **Fabrication:** the concept notes describe custom plaster and resin fabrication, with CATIA design and ANSYS simulation.
 
-The presentation also suggests a future tap-gesture band and an RF-connected revision of the prototype. These are future concepts, not implemented features.
+A tap-gesture band and an RF-connected revision are possible future directions. They are not implemented features.
 
 ## Current status
 
-**Idea / prototype planning.** No code, CAD, circuit design, or reproducible test results have been added yet.
+**Concept and prototype planning.** No code, CAD, circuit design, or reproducible test results have been added yet.
 
 Suggested next steps:
 
@@ -30,7 +30,7 @@ Suggested next steps:
 
 ## Claims to validate
 
-The presentation proposes a price below ₹50,000, grip force up to 45 N, 12–16 hours of battery life, and water/dust resistance. These are presentation claims and targets, not verified specifications. Publish supporting test methods and results before treating them as product specifications. The presentation also mentions patent-pending protection; this repository makes no independent claim about patent status.
+The concept notes propose a price below ₹50,000, grip force up to 45 N, 12–16 hours of battery life, and water/dust resistance. These are targets, not verified specifications. Publish supporting test methods and results before treating them as product specifications.
 
 ## Repository layout
 
@@ -45,7 +45,3 @@ Directories will be added as project files become available.
 ## Safety
 
 This repository describes an engineering project, not medical advice or a ready-to-use medical device. Do not use an unvalidated prototype on a person. Evaluate mechanical pinch/crush hazards, electrical and thermal risks, battery protection, skin-contact materials, and loss-of-control behavior. Human testing requires appropriate clinical supervision, informed consent, and applicable approvals.
-
-## Source
-
-Initial concept summary is based on the team's ideas.pptx submission (Smart India Hackathon 2024). The presentation remains in the project owner's source folder and has not been uploaded to this repository.
